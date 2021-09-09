@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-image: url('background 1.png');
+    background-size:cover;
+}
+.container{
+    width:320px;
+    height: 500px;
+    box-shadow:
+    -10px -10px 15px rgba(0,0,0,0.3),
+    10px 10px 15px rgba(0,0,0,0.3) ;
+    background-color:#fff;
+    background-image:url('background.png');
+    background-size:cover;
+}
+h2{
+    margin-top:60px;
+    text-align: center;
+    color:#fff;
+}
+.login{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+}
+fieldset{
+    width:240px;
+    background-color:#fff;
+    border:none;
+    padding:20px;
+}
+legend{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 40px;
+    color:#fff;
+    padding:7px;
+    border-radius:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(19,20,41);
+}
+legend .fa-user{
+    border:2px solid #fff;
+    width:60px;
+    height: 60px;
+    border-radius:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:2px;
+}
+.inputbox{
+    color:#ccc;
+    width: 90%;
+    padding:5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 3px solid #ccc;
+    margin-top:5px;
+}
+.inputbox:focus-within{
+    border-bottom:3px solid rgb(201,44,32);
+    color:rgb(201,44,32);
+}
+input[type="text"],input[type="password"]{
+    height: 30px;
+    font-size: 15px;
+    border:none;
+    outline:none;
+    padding:0px 10px;
+
+}
+p{
+    display: flex;
+    flex-direction: row-reverse;
+    padding:7px 0px;
+    color:#ccc;
+    cursor: pointer;
+
+}
+p:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(201,44,32);
+}
+input[type="submit"]{
+    width:100%;
+    height: 35px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(201,44,32);
+    border:none;
+    color:#fff;
+    margin-top:20px;
+}
